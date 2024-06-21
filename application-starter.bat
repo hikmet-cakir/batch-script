@@ -1,9 +1,9 @@
 @echo off 
 setlocal enabledelayedexpansion
 
-set /p file_name="Uygulama Cikti Dosyasinin Ismini Belirtiniz:"
+set /p file_name="Enter the output file name:"
 
-set /p num_apps="Kac adet uygulama yolunu gireceksiniz? "
+set /p num_apps="How many application paths will you enter?: "
  
 for /l %%i in (1, 1, %num_apps%) do ( 
     set /p app_path=Uygulama yolunu girin:   
